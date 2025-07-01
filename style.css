@@ -37,7 +37,7 @@ input{
      outline:none;
      background:transparent;
     padding:10px;
-    font-weight:14px;
+    font-weight:500;
 }
 button{
     border:none;
@@ -64,7 +64,7 @@ ul li::before{
     width:28px;
     border-radius:50%;
     background-image:url("https://static.thenounproject.com/png/60248-200.png");
-    background-size:cover;
+    background-size:contain;
     background-position:center;
     top:8px;
     left:10px;
@@ -81,12 +81,12 @@ ul li.checked::before {
         position:absolute;
         background-image: url("https://png.pngtree.com/png-vector/20191113/ourmid/pngtree-green-check-mark-icon-flat-style-png-image_1986021.jpg");
         background-size: contain;
-       background-position: center;
+        background-position: center;
  }
 ul li span{
     position:absolute;
     right:0px;
-    top:10px;
+    top:5px;
     width:40px;
     height:40px;
     font-size:22px;
